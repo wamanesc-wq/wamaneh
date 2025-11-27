@@ -1,0 +1,69 @@
+body, h1, h3, h4, h5, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #222;
+    line-height: 1.6;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background: white;
+}
+
+/* Header utama */
+h1 {
+    color: #005f73;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Subheader */
+h3, h4, h5 {
+    color: #0a9396;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+/* Gambar karakter */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* Paragraf */
+p {
+    margin-bottom: 15px;
+    text-align: justify;
+    font-size: 16px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+    margin-top: 40px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+}

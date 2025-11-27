@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Mengatur font dasar untuk halaman */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Menata heading 1 */
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Menata heading 4 */
+h4 {
+    font-size: 1.5rem;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+/* Menata paragraph */
+p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Styling untuk gambar */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+/* Menambahkan garis horizontal dengan margin */
+hr {
+    border: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+/* Styling untuk alias dan informasi lainnya */
+p:first-of-type {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Menata link jika ada */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Membuat layout menjadi lebih responsive */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    h4 {
+        font-size: 1.2rem;
+    }
+}
